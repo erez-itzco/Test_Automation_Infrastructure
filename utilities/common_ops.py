@@ -17,7 +17,7 @@ import xml.etree.ElementTree as ET
 ##############################################################
 
 def get_data(node_name):
-    root = ET.parse('C:/Automation/test_automation_final_project/configuration/data.xml').getroot()
+    root = ET.parse(r'C:\Automation\test_automation_infrastructure\configuration\data.xml').getroot()
     return root.find('.//' + node_name).text
 
 
