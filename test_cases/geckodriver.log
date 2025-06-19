@@ -1,0 +1,53 @@
+1741537831927	geckodriver	INFO	Listening on 127.0.0.1:50534
+1741537835000	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Erez\\AppData\\Local\\Temp\\rust_mozprofileOZU2R6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1741537835827	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1741537836578	Marionette	INFO	Listening on port 50545
+Read port: 50545
+1741537836860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741537843653	Marionette	INFO	Stopped listening on port 50545
+JavaScript warning: http://localhost:3000/public/build/7095.6839ffb2aed352838f3a.js, line 4691: Script terminated by timeout at:
+./public/app/features/dashboard/dashgrid/liveTimer.ts/l</<@http://localhost:3000/public/build/7095.6839ffb2aed352838f3a.js:4691:1543
+
+Dynamically enable window occlusion 1
+1741537909178	geckodriver	INFO	Listening on 127.0.0.1:50590
+1741537912237	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Erez\\AppData\\Local\\Temp\\rust_mozprofiletnB05N"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1741537913205	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1741537913644	Marionette	INFO	Listening on port 50601
+Read port: 50601
+1741537913871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741537922263	Marionette	INFO	Stopped listening on port 50601
+JavaScript warning: http://localhost:3000/public/build/7095.6839ffb2aed352838f3a.js, line 4691: Script terminated by timeout at:
+./public/app/features/dashboard/dashgrid/liveTimer.ts/l</<@http://localhost:3000/public/build/7095.6839ffb2aed352838f3a.js:4691:1543
+
+Dynamically enable window occlusion 1
+1741946984761	geckodriver	INFO	Listening on 127.0.0.1:63010
+1741946987825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Erez\\AppData\\Local\\Temp\\rust_mozprofile7GPm4N"
+1741947033565	geckodriver	INFO	Listening on 127.0.0.1:63060
+1741947036596	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Erez\\AppData\\Local\\Temp\\rust_mozprofileybfqx0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1741947037118	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1741947037464	Marionette	INFO	Listening on port 63070
+Read port: 63070
+1741947037628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741947042731	Marionette	INFO	Stopped listening on port 63070
+Dynamically enable window occlusion 1
+1741951967869	geckodriver	INFO	Listening on 127.0.0.1:64965
+1741951970918	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Erez\\AppData\\Local\\Temp\\rust_mozprofile6F93ts"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1741951971433	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1741951971813	Marionette	INFO	Listening on port 64980
+Read port: 64980
+1741951972000	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1741952002371	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1741952188383	Marionette	INFO	Stopped listening on port 64980
+Dynamically enable window occlusion 1
