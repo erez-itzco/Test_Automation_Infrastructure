@@ -84,6 +84,25 @@ One of the key strengths of the framework is its ease of maintenance and adaptab
 
 📊 Allure Reports – For rich test reporting with screenshots and detailed logs
 
+## ⚙️ Setup Instructions:
+
+📁 Create a Virtual Environment (venv)
+
+To keep dependencies isolated, it's recommended to use a virtual environment:
+<details> <summary><strong>💻 Windows</strong></summary>
+bash
+Copy
+Edit
+python -m venv venv
+venv\Scripts\activate
+</details> <details> <summary><strong>🐧 macOS / Linux</strong></summary>
+bash
+Copy
+Edit
+python3 -m venv venv
+source venv/bin/activate
+</details>
+
 ## ⚠ Known Limitations:
 
 ⚠ Dependency Conflicts: Since this project integrates multiple types of applications and tools, occasional dependency conflicts may arise.
