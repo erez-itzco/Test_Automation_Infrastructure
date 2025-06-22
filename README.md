@@ -1,6 +1,6 @@
-🔧 Full Stack Automation Final Project
+# 🔧 Full Stack Automation Final Project
 
-[🎥 Watch the videos on Google Drive]
+# [🎥 Watch the videos on Google Drive]
 
 Web (https://drive.google.com/file/d/1UfXgG94yNmOvBNsdDh5nXJFHAM_adBs3/view?usp=sharing)
 
@@ -19,16 +19,16 @@ Electron (https://drive.google.com/file/d/1HQUUGU5WHSGsg-wccY5cBw55edp6pmly/view
 
 
 
-This project was developed to showcase my expertise in automation testing across multiple platforms and technologies.
+## This project was developed to showcase my expertise in automation testing across multiple platforms and technologies.
 
 
-📌 Project Summary
+## 📌 Project Summary
 
 The project demonstrates a robust, scalable automation infrastructure designed with a modular and hierarchical architecture. Each module consists of multiple classes and methods, organized into common, helper, action, and page object layers. This structure allows test cases to be written with minimal code while maintaining flexibility and reusability across different application types.
 
 One of the key strengths of the framework is its ease of maintenance and adaptability to various testing scenarios.
 
-🧩 Key Features & Technologies:
+## 🧩 Key Features & Technologies:
 
 ✅ Page Object Model (POM) architecture
 
@@ -72,7 +72,7 @@ One of the key strengths of the framework is its ease of maintenance and adaptab
 
 🧮 Windows Calculator – Native Windows application testing
 
-🛠 Tools & Frameworks Used:
+## 🛠 Tools & Frameworks Used:
 
 🗄️ MySQL (Free Online DB) – Used for login validation on the Grafana web page
 
@@ -82,7 +82,7 @@ One of the key strengths of the framework is its ease of maintenance and adaptab
 
 📊 Allure Reports – For rich test reporting with screenshots and detailed logs
 
-⚠ Known Limitations:
+## ⚠ Known Limitations:
 
 ⚠ Dependency Conflicts: Since this project integrates multiple types of applications and tools, occasional dependency conflicts may arise.
 
