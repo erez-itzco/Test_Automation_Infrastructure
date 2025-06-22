@@ -12,7 +12,9 @@
 
 [Short Video - Demonstration of Electron](https://drive.google.com/file/d/1HQUUGU5WHSGsg-wccY5cBw55edp6pmly/view?usp=sharing)
 
+## ❌ Watch the error exceptions:
 
+[Error Exceptions](https://drive.google.com/drive/folders/1MHGzUWotgOtXTmunAfKTawxtKv9G20eY?usp=sharing)
 
 
 
