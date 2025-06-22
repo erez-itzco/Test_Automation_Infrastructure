@@ -36,15 +36,15 @@ One of the key strengths of the framework is its ease of maintenance and adaptab
 
 ✅ Support for multiple platforms and application types:
 
-* Web applications
+🎯 Web applications
 
-* Mobile apps
+🎯 Mobile apps
 
-* Web APIs
+🎯 Web APIs
 
-* Electron-based apps
+🎯 Electron-based apps
 
-* Windows desktop applications
+🎯 Windows desktop applications
 
 ✅ Built-in failure handling mechanisms
 
