@@ -103,6 +103,13 @@ python3 -m venv venv
 source venv/bin/activate
 </details>
 
+## 📦 Install Required Packages:
+
+Once the virtual environment is activated, install the dependencies:
+
+pip install -r requirements.txt
+
+
 ## ⚠ Known Limitations:
 
 ⚠ Dependency Conflicts: Since this project integrates multiple types of applications and tools, occasional dependency conflicts may arise.
