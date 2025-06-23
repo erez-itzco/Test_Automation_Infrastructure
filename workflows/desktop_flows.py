@@ -7,12 +7,15 @@ class DesktopFlows:
     @staticmethod
     @allure.step('Calculate equation')
     def calculate_flow(equation):
+        # Click each character in the equation
         for i in equation:
             DesktopFlows.calculator_click(i)
+            # Click '=' to get the result
         UiActions.click(page.standard_calc.get_equals())
 
     @staticmethod
     def calculator_click(value):
+        # Map each character to its corresponding button
         if value == '0':
             UiActions.click(page.standard_calc.get_zero())
         elif value == '1':
@@ -42,17 +45,20 @@ class DesktopFlows:
         elif value == '/':
             UiActions.click(page.standard_calc.get_divide())
         else:
+            # Raise exception for unsupported input
             raise Exception('Invalid Input' + value)
 
     @staticmethod
     @allure.step('Get calculator result')
     def get_result_flow():
+        # Get and clean result text
         result = page.standard_calc.get_result().text.replace("Display is","").strip()
         return result
 
     @staticmethod
     @allure.step('Clear calculator page')
     def clear_flow():
+        # Click 'Clear' button
         UiActions.click(page.standard_calc.get_clear())
 
 

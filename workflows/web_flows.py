@@ -13,6 +13,7 @@ class WebFlows:
     @staticmethod
     @allure.step('login to grafana flow')
     def login_flow(user: str, password: str):
+        # Enter username and password, then log in
         UiActions.update_text(page.web_login.get_user_name(), user)
         UiActions.update_text(page.web_login.get_password(), password)
         UiActions.click(page.web_login.get_submit())
@@ -21,6 +22,7 @@ class WebFlows:
     @staticmethod
     @allure.step('verify grafana title flow')
     def verify_grafana_title(expected: str):
+        # Wait for title to appear and verify it
         wait(For.ELEMENT_EXISTS, main.main_title)
         actual = page.web_main.get_main_title().text
         Verifications.verify_equals(actual, expected)
@@ -29,6 +31,7 @@ class WebFlows:
     @staticmethod
     @allure.step('verify displayed menu button flow using smart-assertions')
     def verify_menu_buttons_flow_smart_assertions():
+        # Use smart assertions to verify top menu buttons
         elems = [page.web_upper_menu.get_panel(),
                  page.web_upper_menu.get_save_dashboard(),
                  page.web_upper_menu.get_dashboard_settings(),
@@ -39,6 +42,7 @@ class WebFlows:
     @staticmethod
     @allure.step('verify displayed menu button flow using my implementation')
     def verify_menu_buttons_flow():
+        # Use custom soft verification for menu buttons
         elems = [page.web_upper_menu.get_panel(),
                  page.web_upper_menu.get_save_dashboard(),
                  page.web_upper_menu.get_dashboard_settings(),
@@ -48,6 +52,7 @@ class WebFlows:
     @staticmethod
     @allure.step('go to users flow')
     def open_users():
+        # Navigate to Users tab via menu hover
         elem1 = page.web_left_menu.get_server_admin()
         elem2 = page.web_server_admin_menu.get_users()
         UiActions.mouse_hover(elem1,elem2)
@@ -55,6 +60,7 @@ class WebFlows:
     @staticmethod
     @allure.step('create new user flow')
     def create_user(name, email, user, password):
+        # Fill in user details and create new user
         UiActions.click(page.web_server_admin.get_new_user())
         UiActions.update_text(page.web_server_admin_new_user.get_name(), name)
         UiActions.update_text(page.web_server_admin_new_user.get_email(), email)
@@ -65,6 +71,7 @@ class WebFlows:
     @staticmethod
     @allure.step('verify number of users in table flow')
     def verify_number_of_users(number):
+        # Verify expected number of users are displayed
         if number > 0:
             wait(For.ELEMENT_DISPLAYED, page_objects.web_objects.server_admin_page.users_list)
             Verifications.verify_number_of_elements(page.web_server_admin.get_users_list(), number)
@@ -72,12 +79,14 @@ class WebFlows:
     @staticmethod
     @allure.step('search user from users table flow')
     def search_user(search_value):
+        # Search for a user in the table
         UiActions.clear(page.web_server_admin.get_search())
         UiActions.update_text(page.web_server_admin.get_search(), search_value)
 
     @staticmethod
     @allure.step('delete user from users table flow')
     def delete_user(by, value):
+        # Delete user by username or index
         if by == 'user':
             UiActions.click(page.web_server_admin.get_user_by_user_name(value))
         elif by == 'index':
@@ -88,8 +97,10 @@ class WebFlows:
     @staticmethod
     @allure.step('go to home flow')
     def grafana_home():
+        # Navigate to Grafana home URL
         conf.driver.get(get_data('Url'))
 
+# Load test data from CSV file
 data = read_csv(get_data('CSV_Location'))
 testdata = [
     (data[0][0], data[0][1]),
