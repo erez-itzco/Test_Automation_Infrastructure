@@ -1,1 +1,1 @@
-[{"name":"Jenkins","type":"jenkins","url":"http://localhost:9090/","buildOrder":16,"buildName":"Full Stack API #16","buildUrl":"http://localhost:9090/job/Full%20Stack%20API/16/","reportName":"AllureReport","reportUrl":"http://localhost:9090/job/Full%20Stack%20API/16/allure"}]
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:9090/","buildOrder":7,"buildName":"Full Stack Mobile #7","buildUrl":"http://localhost:9090/job/Full%20Stack%20Mobile/7/","reportName":"AllureReport","reportUrl":"http://localhost:9090/job/Full%20Stack%20Mobile/7/allure"}]
